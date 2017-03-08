@@ -1,7 +1,28 @@
-prices = [ 1.23, 6.98, 8.43, 2.45 ]
-costs = [ 4.23, 1.12, 0.52, 8.67 ]
+# 5. Given this hash:
 
-def lengths_of_arrays
-   return (prices+costs).length
+#     ```
+    countries = {
+      uk: {
+        capital: 'London',
+        population: 60
+      },
+      france: {
+        capital: 'Paris',
+        population: 70
+      },
+      italy: {
+        capital: 'Rome',
+        population: 56
+      }
+    }
+#     ```
+
+#     - create a function that will return an array of capitals
+
+#     tips: you can pass an entire hash to your function e.g. array_of_capitals( countries )
+
+#     Expectation: [ 'London', 'Paris', 'Rome' ]
+
+def array_of_capitals(countries)
+  for 
 end
-
