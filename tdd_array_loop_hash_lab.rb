@@ -23,6 +23,12 @@
 
 #     Expectation: [ 'London', 'Paris', 'Rome' ]
 
+
+
 def array_of_capitals(countries)
-  for 
+  for countr in countries
+    print capital.keys
+  end
 end
+
+capital_array[]
