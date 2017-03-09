@@ -22,13 +22,13 @@
 #     tips: you can pass an entire hash to your function e.g. array_of_capitals( countries )
 
 #     Expectation: [ 'London', 'Paris', 'Rome' ]
-array = []
-keys = countries.keys
-print keys
-def array_of_capitals(countries)
-  for key in keys
-    print(countries[keys][:capital])
+
+def get_capitals(countries)
+  capitals =[]
+  for country in countires.keys
+    capitals.push(countries[country][:capital])
   end
+  return capitals
 end
 
 # puts array_of_capitals(keys)

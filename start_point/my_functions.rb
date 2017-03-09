@@ -2,7 +2,7 @@ def add_array_lengths(array1, array2)
   return(array1+array2).length
 end
 
-def sum_array(numbers)
+def sum_array(numbers) 
   sum = 0
   for number in numbers
     sum += number
@@ -10,7 +10,7 @@ def sum_array(numbers)
   return sum
 end
 
-def find_item(array, item)
+def find_item?(array, item)
   for house in array
     if house == item
       return true
